@@ -1,0 +1,70 @@
+
+@import url("https://use.fontawesome.com/releases/v5.11.1/css/all.css");
+
+html {
+    scroll-behavior: smooth;
+}
+
+#home {
+    background-image: url('/img/simon-berger.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+#about {
+    min-height: 100vh;
+    padding: 15vh 0;
+}
+
+#contact {
+    height: 100vh;
+    background-image: url('/img/jeremy-bishop.jpg');
+    background-size: cover;
+}
+
+#profile {
+    background-image: url('/img/profile.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+a {
+    margin-right: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.svgicon {
+        width: 32px;
+        height: auto;
+        margin: 8px;
+}
+
+.svgicon2x {
+    width: 48px;
+    height: auto;
+}
+
+.svgicon3x {
+    width: 64px;
+    height: auto;
+}
+
+#up {
+    position: fixed;
+    z-index: 100;
+    top: 87%;
+    left: 80%;
+}
+
+@media (max-width: 760px) {
+    .list-group-item {
+        font-size: 0.8em;
+        padding:12px;
+    }
+}
+
