@@ -1,14 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/global.css';
 
-import { Navbar } from '../components/navbar/Navbar'
+import { Navigation } from '../components/navbar/Navbar'
 import { Footer } from '../components/footer/Footer'
 import { GoTop } from '../components/goTop/GoTop'
 
 const App = ({ Component, pageProps }) => {
     return (
         <>
-            <Navbar />
+            <Navigation />
             <Component {...pageProps} />
             <GoTop />
             <Footer />
